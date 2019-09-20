@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   get '/xml', to: 'responses#xml'
   get '/csv', to: 'responses#csv'
   get '/png', to: 'responses#png'
+
+  # Open config/routes.rb and app/controllers/responses_controller.rb. Add the render, send_data, and send_file lines to the controller so that all the routes work. Check them all by visiting the urls in the browser.
 end
